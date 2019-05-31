@@ -1,0 +1,64 @@
+{
+ "creation": "2019-05-30 16:16:09.118307",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "running_hrs",
+  "load_hrs",
+  "maintanance_in",
+  "dutry_cycle",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "running_hrs",
+   "fieldtype": "Read Only",
+   "label": "Running Hrs"
+  },
+  {
+   "fieldname": "load_hrs",
+   "fieldtype": "Read Only",
+   "label": "Load Hrs"
+  },
+  {
+   "fieldname": "maintanance_in",
+   "fieldtype": "Read Only",
+   "label": "Maintanance in"
+  },
+  {
+   "fieldname": "dutry_cycle",
+   "fieldtype": "Read Only",
+   "label": "Dutry Cycle"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "iotreport",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "modified": "2019-05-31 10:50:45.005672",
+ "modified_by": "Administrator",
+ "module": "Iot",
+ "name": "iotreport",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC"
+}

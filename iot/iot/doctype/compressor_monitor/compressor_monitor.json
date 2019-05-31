@@ -1,0 +1,57 @@
+{
+ "creation": "2019-05-30 12:23:40.721549",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "running_hrs",
+  "load_hrs",
+  "maintenance_in",
+  "duty_cycle",
+  "data_5",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "running_hrs",
+   "fieldtype": "Data",
+   "label": "Running Hrs"
+  },
+  {
+   "fieldname": "load_hrs",
+   "fieldtype": "Data",
+   "label": "Load Hrs"
+  },
+  {
+   "fieldname": "maintenance_in",
+   "fieldtype": "Data",
+   "label": "Maintenance in"
+  },
+  {
+   "fieldname": "duty_cycle",
+   "fieldtype": "Data",
+   "label": "Duty Cycle"
+  },
+  {
+   "fieldname": "data_5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "compressor_monitor",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2019-05-30 12:31:37.875506",
+ "modified_by": "Administrator",
+ "module": "Iot",
+ "name": "compressor_monitor",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "ASC"
+}
